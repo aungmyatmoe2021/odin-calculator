@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">   
+        <div class="text">
+            <input type="text" name="hintDisplay" id="hintDisplay" readonly>
+            <input type="text" name="display" id="display" onkeyup="eventOnKeyUp(this);">
+            <input type="text" name="historyDisplay" id="historyDisplay" readonly>
+        </div>
+        <div class="rowOne">
+            <input type="button" value="1" id="one">
+            <input type="button" value="2" id="two">
+            <input type="button" value="3" id="three">
+            <input type="button" value="4" id="four">
+        </div>
+        <div class="rowOne">
+            <input type="button" value="5" id="five">
+            <input type="button" value="6" id="six">
+            <input type="button" value="7" id="seven">
+            <input type="button" value="8" id="eight">
+        </div>
+        <div class="rowOne">
+            <input type="button" value="." id="decimal">
+            <input type="button" value="9" id="nine">
+            <input type="button" value="0" id="zero">
+            <input type="button" value="+" id="add">
+        </div>
+        <div class="rowOne">
+            <input type="button" value="-" id="subtract">
+            <input type="button" value="*" id="multiply">
+            <input type="button" value="/" id="divide">
+            <input type="button" value="=" id="answer">
+        </div>
+        <div class="rowlast">
+            <input type="button" value="Clear" id="clear">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
